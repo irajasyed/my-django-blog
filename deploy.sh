@@ -6,6 +6,7 @@ virtualenv myvenv
 source myvenv/bin/start
 pip install django==1.9
 django-admin startproject mysite .
+ls
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runsever 0.0.0.0:8989
